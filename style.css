@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.header ul {
+    margin-right: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: grey;
+}
+
+.heroSection {
+    background-image: url('homepage_img.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjusts the image to cover the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: "/homepage.jpg";
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.heroSection h2 {
+    font-family: "Playwrite VN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.heroSection h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+.resume {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 200px;
+}
+
+.resume h2 {
+    font-family: "Playwrite VN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.resume p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.photocontainer {
+    margin: 100px;
+    margin-right: 200px;
+}
+
+.para1 {
+    width: 70%;
+}
+
+.photo {
+    background-color: black;
+    /* background-image: url('profile.jpg'); Replace with your image path */
+    background-size: cover; /* Adjusts the image to cover the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    height: 400px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.skills {
+    background-color: rgba(0, 0, 0, 0.884);
+    color: white;
+}
+
+.skills h2 {
+    font-family: 'Playwrite VN', serif;
+    font-size: 40px;
+    display: grid;
+    grid-column: 3 span;
+    justify-content: center;
+}
+
+.skills p {
+    font-family: 'Jost', serif;
+    font-size: 20px;
+}
+
+.projects {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 70px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+}
+
+.contact h2 {
+    font-family: 'Playwrite VN', serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact .contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between contact-info and form */
+}
+
+.contact .contact-info {
+    width: 50%;
+    height: 400px;
+    font-family: 'Jost', serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black; /* Vertical line */
+    margin-left: 80px;
+}
+
+.contact .form {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column; /* Ensure children are stacked vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+}
+
+.contact .form input,
+.contact .form textarea {
+    border-radius: 10px;
+    width: 80%; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Space between fields */
+    padding: 10px; /* Padding inside the fields */
+    font-size: 16px; /* Font size for the input fields */
+}
+
+.contact .form button {
+    border-radius: 10px;
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    align-self: flex-start; /* Align the button to the left */
+    margin-left: 6%; /* Add some left margin to align with the input fields */
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.footer h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+}
